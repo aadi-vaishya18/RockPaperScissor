@@ -31,6 +31,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .score span{
@@ -79,6 +80,20 @@ button:active{
 .total{
     margin-top: 20px;
     font-size: 1.2rem;
+ }
+.speaker {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.speaker img {
+    width: 40px;
+    margin-top: 15px;
+}
+.speaker:hover{
+    background: none;
 }
 
 /* Mobile responsiveness */
