@@ -12,7 +12,7 @@ let soundIcon = document.querySelector(".sound");
 let speakerBttn = document.querySelector(".speaker");
 let bgMusic = new Audio("assets/bgMusic.mp3");
 
-bgMusic.volume = 0.2;
+bgMusic.volume = 0.1;
 bgMusic.loop = true;
 bgMusic.play();
 
@@ -142,3 +142,4 @@ document.querySelector(".scissor").addEventListener("click", () => {
     scissorSound();
     playRound("scissor");
 });
+
