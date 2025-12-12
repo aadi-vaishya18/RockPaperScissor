@@ -103,6 +103,7 @@ function playRound(playerHand) {
 function rockSound() {
     let rock = new Audio("assets/rock.mp3");
     rock.play();
+    rock.volume = 1.25;
     setTimeout(() => {
         rock.pause();
         rock.currentTime = 0;
@@ -112,6 +113,7 @@ function rockSound() {
 function paperSound() {
     let paper = new Audio("assets/paper.mp3");
     paper.play();
+    paper.volume = 1.25;
     setTimeout(() => {
         paper.pause();
         paper.currentTime = 0;
@@ -121,6 +123,7 @@ function paperSound() {
 function scissorSound() {
     let scissor = new Audio("assets/scissor.mp3");
     scissor.play();
+    scissor.volume = 1.25;
     setTimeout(() => {
         scissor.pause();
         scissor.currentTime = 0;
@@ -142,4 +145,5 @@ document.querySelector(".scissor").addEventListener("click", () => {
     scissorSound();
     playRound("scissor");
 });
+
 
