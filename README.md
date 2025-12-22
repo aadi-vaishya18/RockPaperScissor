@@ -72,7 +72,7 @@ Project Folder
    * 🤚 for Paper
    * ✌️ for Scissor
 3. See scores update in real-time
-4. After **5 rounds**, game declares a winner & resets automatically
+4. After **3 rounds**, game declares a winner & resets automatically
 5. Use the **speaker icon** to toggle background music ON/OFF
 
 ---
