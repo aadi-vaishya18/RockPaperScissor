@@ -2,7 +2,7 @@
 # 🎮 Rock Paper Scissors — JavaScript Game
 
 A simple and interactive **Rock Paper Scissors** game built using **HTML, CSS, and JavaScript**.
-Includes **score tracking, button sound effects, background music toggle, and best-of-5 match logic**.
+Includes **score tracking, button sound effects, background music toggle, and best-of-3 match logic**.
 
 ---
 
