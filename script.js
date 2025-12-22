@@ -74,7 +74,7 @@ function playRound(playerHand) {
         botScoreEl.textContent = "Bot's Score : " + botScore;
     }
 
-    if (totalPlays === 5) {
+    if (totalPlays === 4) {
         if (yourScore > botScore) {
             alert("You Won 🎊🎉");
         } else if (yourScore < botScore) {
@@ -142,3 +142,4 @@ document.querySelector(".scissor").addEventListener("click", () => {
     scissorSound();
     playRound("scissor");
 });
+
